@@ -1,0 +1,14 @@
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\ServerSide Code.dll
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\ServerSide Code.pdb
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\Player.IO GameLibrary.dll
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\Player.IO GameLibrary.xml
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x64\Debug\ServerSide Code.dll
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x64\Debug\ServerSide Code.pdb
+Z:\aleksejkuznecov On My Mac\Dropbox\RIA Junkbox\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\ServerSide Code.dll
+Z:\aleksejkuznecov On My Mac\Dropbox\RIA Junkbox\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\ServerSide Code.pdb
+Z:\aleksejkuznecov On My Mac\Dropbox\RIA Junkbox\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\Player.IO GameLibrary.dll
+Z:\aleksejkuznecov On My Mac\Dropbox\RIA Junkbox\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\Player.IO GameLibrary.xml
+Z:\aleksejkuznecov On My Mac\Dropbox\RIA Junkbox\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x64\Debug\ServerSide Code.dll
+Z:\aleksejkuznecov On My Mac\Dropbox\RIA Junkbox\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x64\Debug\ServerSide Code.pdb
+Z:\aleksejkuznecov On My Mac\Dropbox\RIA Junkbox\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x64\Debug\ServerSide.csprojResolveAssemblyReference.cache

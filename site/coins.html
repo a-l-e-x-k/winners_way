@@ -1,0 +1,160 @@
+<style type="text/css">
+.offersPageContainer
+{
+	background-image:url("{% url 'images/header.png' %}");
+	text-align:center;
+}
+.offers
+{		
+	display:block;	
+	text-align:center;
+	width:500px;
+	padding-top:88px;
+	padding-bottom:60px;
+	padding-left:144px;
+}
+.optionContainer
+{
+	width:500px;
+	height:50px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 2px solid #B8C4DC;
+	background-color:#FFFFFF;	
+	display:block;	
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.creditsOption
+{
+	position:absolute;
+	display:block;	
+}
+.creditsOption div 
+{
+	float:left;			
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	line-height:40px;
+	height:50px;
+}
+.buyButton {
+	color: white;	
+	background-color:#090;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	border: 3px solid #060;	
+	display: inline;
+	z-index: auto;
+	cursor: auto;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;	
+	cursor:pointer;
+}
+.buyButton:hover {
+	background-color:#0C0;
+}
+.coinsTextContainer
+{
+	width:170px;
+	text-align:left;
+}
+.creditsTextContainer
+{
+	width:130px;
+	text-align:right;
+}
+.creditsPic
+{
+	padding-top: 5px;
+}
+</style>
+<script>
+	function dispatchOffer(e)
+	{
+		console.log(e.target.id);
+		document.getElementById("flashContent").requestOfferData(e.target.id.charAt(e.target.id.length - 1));
+	}
+
+	$(document).ready(function(e) {
+        console.log("ready i am");
+		for (var i = 0; i < 8; i++) //adding listeners to every button
+		{
+			$("#offer" + i.toString()).click(function(e) { dispatchOffer(e); });
+		}		
+    });
+</script>
+<div class="offersPageContainer">
+    <div class="offers">
+        <div class="optionContainer"> 
+            <div class="creditsOption">
+                <div> <img src="{% url 'images/coin.gif' %}" width="40" height="40"> </div> 
+                <div class="coinsTextContainer"> <span class="coinsAmount">150 Coins for</span> </div>
+                <div class="creditsTextContainer"> <span class="offerPrice">10 Credits</span> </div>
+                <div> <span="creditsPic"> <img src="{% url 'images/credits.gif' %}" width="40" height="40"> </span> </div> 
+                <div> <span class="buyButton" id="offer0">Buy</span> </div>
+            </div>  
+        </div> 
+        <div class="optionContainer"> 
+            <div class="creditsOption">
+                <div> <img src="{% url 'images/coin.gif' %}" width="40" height="40"> </div> 
+                <div class="coinsTextContainer"> <span class="coinsAmount">330 Coins for</span> </div>
+                <div class="creditsTextContainer"> <span class="offerPrice">20 Credits</span> </div>
+                <div> <span="creditsPic"> <img src="{% url 'images/credits.gif' %}" width="40" height="40"> </span> </div> 
+                <div> <span class="buyButton" id="offer1">Buy</span> </div>
+            </div>  
+        </div> 
+        <div class="optionContainer">
+            <div class="creditsOption">
+                <div> <img src="{% url 'images/coin.gif' %}" width="40" height="40"> </div> 
+                <div class="coinsTextContainer"> <span class="coinsAmount">870 Coins for</span> </div>
+                <div class="creditsTextContainer"> <span class="offerPrice">50 Credits</span> </div>
+                <div> <img src="{% url 'images/credits.gif' %}" width="40" height="40"> </div> 
+                <div> <span class="buyButton" id="offer2">Buy</span> </div>
+            </div>
+        </div>  
+        <div class="optionContainer"> 
+            <div class="creditsOption">
+                <div> <img src="{% url 'images/coin.gif' %}" width="40" height="40"> </div> 
+                <div class="coinsTextContainer"> <span class="coinsAmount">1875 Coins for</span> </div>
+                <div class="creditsTextContainer"> <span class="offerPrice">100 Credits</span> </div>
+                <div> <img src="{% url 'images/credits.gif' %}" width="40" height="40"> </div> 
+                <div> <span class="buyButton" id="offer3">Buy</span> </div>
+            </div>  
+        </div>   
+        <div class="optionContainer">
+            <div class="creditsOption">
+                <div> <img src="{% url 'images/coin.gif' %}" width="40" height="40"> </div> 
+                <div class="coinsTextContainer"> <span class="coinsAmount">3900 Coins for</span> </div>
+                <div class="creditsTextContainer"> <span class="offerPrice">200 Credits</span> </div>
+                <div> <img src="{% url 'images/credits.gif' %}" width="40" height="40"> </div> 
+                <div> <span class="buyButton" id="offer4">Buy</span> </div>
+            </div>
+        </div>  
+        <div class="optionContainer"> 
+            <div class="creditsOption">
+                <div> <img src="{% url 'images/coin.gif' %}" width="40" height="40"> </div> 
+                <div class="coinsTextContainer"> <span class="coinsAmount">10000 Coins for</span> </div>
+                <div class="creditsTextContainer"> <span class="offerPrice">500 Credits</span> </div>
+                <div> <img src="{% url 'images/credits.gif' %}" width="40" height="40"> </div> 
+                <div> <span class="buyButton" id="offer5">Buy</span> </div>
+            </div>  
+        </div>      
+        <div class="optionContainer">
+            <div class="creditsOption">
+                <div> <img src="{% url 'images/coin.gif' %}" width="40" height="40"> </div> 
+                <div class="coinsTextContainer"> <span class="coinsAmount">20500 Coins for</span> </div>
+                <div class="creditsTextContainer"> <span class="offerPrice">1000 Credits</span> </div>
+                <div> <img src="{% url 'images/credits.gif' %}" width="40" height="40"> </div> 
+                <div> <span class="buyButton" id="offer6">Buy</span> </div>
+            </div>
+        </div>        
+    </div>
+</div>

@@ -1,0 +1,7 @@
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\ServerSide Code.dll
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\ServerSide Code.pdb
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\Player.IO GameLibrary.dll
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\x64\Debug\Player.IO GameLibrary.xml
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x64\Debug\ServerSide Code.dll
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x64\Debug\ServerSide Code.pdb

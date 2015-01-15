@@ -1,0 +1,69 @@
+<script>
+	$(function() {
+		$( "#accordion" ).accordion({
+			autoHeight: false,
+			collapsible: true,
+			active: false
+		});
+	});
+</script>
+<style type="text/css">
+#general {
+	text-align: left;
+}
+.powerupimage {
+	margin-right: 5px;	
+}
+</style>
+	
+
+<div id="general">
+	"Winner's Way" is an application where you can play realtime games (Snake, Stack Up and Word Seekers) with your victories saved at your "Way" and "Spiral of Victories". There are powerups, which make every game you play unique and make real action out of it!<br />
+	<br />
+	<div id="accordion">
+        <h3><a href="#">What is "Realtime"?</a></h3>
+        <div>
+            <p>
+             "Realtime" means that we provide very fast interaction with your opponent and you. Like a chat. Instant. E.g. at "Stack Up" game you see your opponent dragging a shape with a mouse. And what is really cool about "realtime" is that you are playing with a human being on the other end. No AI or fake stuff. Pure interactive game with humans.  
+            </p>
+        </div>
+      <h3><a href="#">What is "My Way"?</a></h3>
+        <div>
+            <p>
+            Everytime you defeat somebody he(she) is added to your "Way". "Way" may be completed. So this is kinda a big challange for you. There are many nice thing in "Way", so keep moving forward and you will open new locations there.
+            </p>
+            <br>
+            <p>
+            "Way" contains streaks. It means that sometimes you will need to defeat several players in a row to move forward. And the most interesting thing about streak is that when you lose a game you also lose your streak and have to start it again. 
+            </p>
+            <br>
+            <p>
+            Let's assume that you have to complete streak of 3 people. This means that you need to win 3 times in a row without losing. If you won 2 of 3 games and then lost those 2 guys are removed from your "Way" and you have to start sreak from beginning. 
+            </p>
+        </div>
+        <h3><a href="#">What is "Spiral of Victories"?</a></h3>
+        <div>
+            <p>
+			Generally it is a place where all the guys you defeated are saved. And what is really neat about it is that you can check out all your victories with one click, and with one more click on avatar of the guy you can go to his Facebook page.
+            </p>
+        </div>
+        <h3><a href="#">What is "Jackpot"?</a></h3>
+        <div>
+            <p>
+			That is a huge prize which anyone can receive. To win it you have to defeat 7 opponents in a row without losing any game.<br><br>
+            <b>How is prize made?</b><br>
+            	After each game where powerups were used we add some coins to the jackpot prize. Amount we add depends on how many powerups were used. Thus, the more powerups used - the bigger the prize is!
+            </p>
+        </div>
+        <h3><a href="#">How to use a powerup?</a></h3>
+        <div>
+           <img src="{% url '../images/powerup.jpg' %}" width="150" height="150" align="left" class = "powerupimage"> 
+           <div>
+           <br><br>           
+            	You can use powerup by clicking on it. But this style sucks. <br><br>
+                It is faster and more comfortable to use keyboard-shortcut by pressing number button on your keyboard (either numpad or where-numbers-are-in-the-line).<br>
+                At the picture on the right you can see reddish area with number. Number means keyboard shortcut. In this case powerup may be used by pressing number "2" on keyboard.
+           </div>
+        </div>
+	</div> 
+</div>

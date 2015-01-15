@@ -1,0 +1,32 @@
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.dll
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.pdb
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.dll
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.xml
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.dll
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.pdb
+I:\Documents and Settings\Alexey\Рабочий стол\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.dll
+I:\Documents and Settings\Alexey\Рабочий стол\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.pdb
+I:\Documents and Settings\Alexey\Рабочий стол\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.dll
+I:\Documents and Settings\Alexey\Рабочий стол\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.xml
+I:\Documents and Settings\Alexey\Рабочий стол\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\Alexey\Рабочий стол\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.dll
+I:\Documents and Settings\Alexey\Рабочий стол\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.pdb
+Q:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.dll
+Q:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.pdb
+Q:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.dll
+Q:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\PlayerIOClient.dll
+Q:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.xml
+Q:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\PlayerIOClient.xml
+Q:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ResolveAssemblyReference.cache
+Q:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.dll
+Q:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.pdb
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.dll
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.pdb
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.dll
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\PlayerIOClient.dll
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.xml
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\PlayerIOClient.xml
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.dll
+D:\Job\Flash\FGP Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.pdb

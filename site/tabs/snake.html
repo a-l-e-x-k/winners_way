@@ -1,0 +1,104 @@
+<script>
+	$(function() {
+		$( "#snakeaccordion" ).accordion({
+			autoHeight: false,
+			collapsible: true,
+			active: false
+		});
+	});
+</script>
+<style type="text/css">
+#snake {
+	text-align: left;
+}
+#description {
+	padding: 10px;
+	margin: 10px;
+	height:150px;
+	display:block;	
+}
+#descriptiontext {
+ 	padding: 5px;
+	margin: 5px;
+}
+#descriptionimage {
+	margin-right: 10px;
+	border: 2px #666666 solid;
+}
+.powerupinfotext {
+	
+}
+
+.powerupinfo {
+	padding: 5px;
+	margin: 5px;
+	height:90px;
+}
+.powerupimage {
+	margin-right: 5px;	
+}
+</style>
+
+
+<div id="snake">	
+    <div id="description">
+        <img src="{% url '../images/snake/main.jpg' %}" width="200" height="150" align="left" id="descriptionimage">
+        <div id="descriptiontext">             
+        "Snake" is just the classic old game which everyone knows. But it's in brand-new look and you play it with real people. <br>Another positive difference: your snake can't die. However, it can eat itself and sometimes it can go crazy and stop for a little while to have a rest.
+        </div>
+    </div>
+    
+	<div id="snakeaccordion">
+    	<h3><a href="#">Who wins?</a></h3>
+        <div>
+            <p>
+              Who is bigger at the end of the game. The more fruits you will eat the bigger you will be. Don't bump into yourself. You will eat a peace of yourself and lose poins. And by "you" we mean your snake, of course.<br><br>
+              If both snakes are of equal size then everybody wins! However, since "Way" and "Spiral of Victories" contain only defeated guys no changes are made to both. 
+            </p>
+        </div>
+     	<h3><a href="#">What powerups may be used?</a></h3>
+        <div>
+        <p>
+           <div class="powerupinfo">
+           		<img src="{% url '../images/snake/boost2x.jpg' %}" width="57" height="57" align="left" class = "powerupimage">
+                <div class="powerupinfotext">
+                  <b>2x Booster</b><br>
+                 It will boost your snake, so it will move twice as fast for 7 seconds. Note that you can't use both "2x Boster" and "3x Booster" at the same time.
+               </div>
+           </div>
+           
+           <div class="powerupinfo">
+           		<img src="{% url '../images/snake/boost3x.jpg' %}" width="57" height="57" align="left" class = "powerupimage">
+                <div class="powerupinfotext">
+                  <b>3x Booster</b><br>
+                 It will boost your snake, so it will move 3 times faster for 7 seconds. Note that you can't use both "2x Boster" and "3x Booster" at the same time.
+               </div>
+           </div>
+           
+           <div class="powerupinfo">
+           		<img src="{% url '../images/snake/missile.jpg' %}" width="57" height="57" align="left" class = "powerupimage">
+                <div class="powerupinfotext">
+                  <b>Self-guided Missile</b><br>
+                 Launches missile that will chase your opponent and eventually knock him out for 5 seconds. There is no way he will get away from it. In addition to being an effective tool this powerup is tremendously cool-looking.
+               </div>
+           </div>
+           
+           <div class="powerupinfo">
+           		<img src="{% url '../images/snake/sevenMines.jpg' %}" width="57" height="57" align="left" class = "powerupimage">
+                <div class="powerupinfotext">
+                  <b>Seven Mines</b><br>
+                 It will place 7 mines in a row for your dear opponent. The mines you place are safe for you so you can bravely "creep" on them. But they are not that safe for your opponent (in case of hitting a mine he will go crazy for 5 seconds and won't be able to move). Well, snake, not the actual person.
+               </div>
+           </div>
+           
+           <div class="powerupinfo">
+           		<img src="{% url '../images/snake/grid.jpg' %}" width="57" height="57" align="left" class = "powerupimage">
+                <div class="powerupinfotext">
+                    <b>Show Grid</b><br>
+                   It will show field grid which will help you to make more accurate. It also helps to plan your path ahead, which is an important thing in this game.
+               </div>
+           </div>
+          </p>
+        </div>
+    </div>
+</div>

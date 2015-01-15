@@ -1,0 +1,31 @@
+<link type="text/css" href="css/jquery-ui-1.8.16.custom.css" rel="Stylesheet" />	
+<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script>
+	$(function() {
+		$( "#helptabs" ).tabs({
+			ajaxOptions: {
+				error: function( xhr, status, index, anchor ) {
+					$( anchor.hash ).html(
+						"Couldn't load this tab. We'll try to fix this as soon as possible. ");
+				}
+			}
+		});
+	});
+</script>
+
+<style type="text/css">
+.help {
+	text-align: left;
+}
+</style>
+
+<div class="help">
+  <div id="helptabs">
+        <ul>
+             <li><a href="tabs/general.html"><span>General</span></a></li>
+             <li><a href="tabs/snake.html"><span>Snake</span></a></li>
+             <li><a href="tabs/stackUp.html"><span>Stack Up</span></a></li>
+             <li><a href="tabs/wordSeekers.html"><span>Word Seekers</span></a></li>
+        </ul>
+    </div>
+</div>

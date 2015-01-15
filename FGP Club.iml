@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Winner's Way">
+    <configurations>
+      <configuration name="Winner's Way" pure-as="true" main-class="Main" output-file="winners_way.swf" output-folder="$MODULE_DIR$/flas">
+        <dependencies target-player="11.1">
+          <entries>
+            <entry library-id="7e0db660-813a-421e-be53-f197f70ee116">
+              <dependency linkage="External" />
+            </entry>
+            <entry library-id="da1173cf-4da9-487b-babe-334108f2698e">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="9b73a708-4666-488f-a649-d345716fb1ae">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="e81de9df-1767-4ec5-8441-b6cba3ab49c6">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="flex_sdk_4.6" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-target-player=11.1" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/classes" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../Shared">
+      <sourceFolder url="file://$MODULE_DIR$/../Shared" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../Shared/external" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="flex_sdk_4.6" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="7e0db660-813a-421e-be53-f197f70ee116" />
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Development/flex_sdk_4.6/frameworks/libs/player/16/playerglobal.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="da1173cf-4da9-487b-babe-334108f2698e" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Shared/external/GraphAPI_Web_1_8_1.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="9b73a708-4666-488f-a649-d345716fb1ae" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Shared/external/MonsterDebugger.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="e81de9df-1767-4ec5-8441-b6cba3ab49c6" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/flas/WinnersWay.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

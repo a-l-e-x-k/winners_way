@@ -1,0 +1,12 @@
+D:\Job\Flash\FGP Club\serverside\Player.IO Test Server Project\bin\Debug\Test Server.exe
+D:\Job\Flash\FGP Club\serverside\Player.IO Test Server Project\bin\Debug\Test Server.pdb
+D:\Job\Flash\FGP Club\serverside\Player.IO Test Server Project\bin\Debug\Player.IO Development Server.exe
+D:\Job\Flash\FGP Club\serverside\Player.IO Test Server Project\bin\Debug\Player.IO GameLibrary.dll
+D:\Job\Flash\FGP Club\serverside\Player.IO Test Server Project\bin\Debug\Player.IO GameLibrary.xml
+D:\Job\Flash\FGP Club\serverside\Player.IO Test Server Project\obj\Debug\ResolveAssemblyReference.cache
+D:\Job\Flash\FGP Club\serverside\Player.IO Test Server Project\obj\Debug\Test Server.exe
+D:\Job\Flash\FGP Club\serverside\Player.IO Test Server Project\obj\Debug\Test Server.pdb
+D:\Job\Dropbox\FGP Club\serverside\Player.IO Test Server Project\obj\Debug\Test Server.exe
+D:\Job\Dropbox\FGP Club\serverside\Player.IO Test Server Project\obj\Debug\Test Server.pdb
+Z:\aleksejkuznecov On My Mac\Dropbox\RIA Junkbox\FGP Club\serverside\Player.IO Test Server Project\obj\Debug\Test Server.exe
+Z:\aleksejkuznecov On My Mac\Dropbox\RIA Junkbox\FGP Club\serverside\Player.IO Test Server Project\obj\Debug\Test Server.pdb

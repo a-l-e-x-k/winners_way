@@ -1,0 +1,116 @@
+<script>
+	$(function() {
+		$( "#powerupaccordion" ).accordion({
+			autoHeight: false,
+			collapsible: true,
+			active: false
+		});
+	});
+</script>
+<style type="text/css">
+#stackUp {
+	text-align: left;
+}
+#description {
+	padding: 10px;
+	margin: 10px;
+	height:150px;
+	display:block;	
+}
+#descriptiontext {
+ 	padding: 5px;
+	margin: 5px;
+}
+#descriptionimage {
+	margin-right: 10px;
+	border: 2px #666666 solid;
+}
+.powerupinfotext {
+	padding: 5px;
+	margin: 5px;
+	display:block;
+}
+.powerupinfo {
+	padding: 5px;
+	margin: 5px;
+	height:90px;
+}
+.powerupimage {
+	margin-right: 5px;	
+}
+</style>
+
+
+<div id="stackUp">	
+    <div id="description">
+        <img src="{% url '../images/stackUp/main.jpg' %}" width="200" height="150" align="left" id="descriptionimage">
+        <div id="descriptiontext">             
+        "Stack Up" is literally stacking things on top of each other. At each locatoin in the game you have a big object in the middle (at the bottom of location). Such as lounge, seashell or sledge. Let's call it "big thing". The goal is to accurately stack up as much things as possible and not allow them to fall off the big thing. <br><br> 
+        </div>
+    </div>
+    
+	<div id="powerupaccordion">
+    	<h3><a href="#">Who wins?</a></h3>
+        <div>
+            <p>
+            Most accurate and lucky one!<br>
+            Let's see how the game flows:<br>
+            First player (which is randomly selected) places a shape on the big thing.<br> 
+            Next turn - second player places next shape on the big thing or the shape which first player placed. <br>
+            Next turn - first player again places shape. And so on...<br><br>
+            
+            <b>Player will lose</b> if at his turn either of the next things happens:<br>
+            &nbsp;a) any shape falls off the big thing<br>
+            &nbsp;b) player fails to finish turn in 15-seconds limit<br><br>
+    		
+            <b>The other player wins</b> then :) 
+            </p>
+        </div>
+        <h3><a href="#">Turn finish clarification</a></h3>
+        <div>
+            <p>
+           		Turn is considered finished when all the shapes which are on top of the big thing are stable and are not moving. <br><br>
+               <b>Why so?</b><br>
+                Imagine that you are plaing "Stack Up" and it is your oponent's turn. And let's assume that you guys have made a huge tower of shapes. Now your opponent places a shape on top of this huge tower. And tower begins falling. And would you be very happy if you would have to make your turn now? Well, you would just lose and that would not be a fair outcome for you. This is why we make sure that shapes are not reeling before proceeding to next turn.
+            </p>
+        </div>
+     	<h3><a href="#">What powerups may be used?</a></h3>
+        <div>       
+        <p>
+           <div class="powerupinfo">
+           		<img src="{% url '../images/stackUp/swap.jpg' %}" width="57" height="57" align="left" class = "powerupimage">
+                <div class="powerupinfotext">
+                  <b>Swap Shape</b><br>
+                 Changes current shape you have to place for another one (randomly selected).
+               </div>
+           </div>
+           
+           <div class="powerupinfo">
+           		<img src="{% url '../images/stackUp/tiny.jpg' %}" width="57" height="57" align="left" class = "powerupimage">
+                <div class="powerupinfotext">
+                  <b>Tiny Ruby</b><br>
+                  Changes current shape you have to place to a tiny ruby so you can fit it anywhere.
+               </div>
+           </div>
+           
+           <div class="powerupinfo">
+           		<img src="{% url '../images/stackUp/indo.jpg' %}" width="57" height="57" align="left" class = "powerupimage">
+                <div class="powerupinfotext">
+                  <b>Undo Turn</b><br>
+                 Removes the shape your opponent placed at his last turn. This gives you a space to place your shape. 
+               </div>
+           </div>
+           
+           <div class="powerupinfo">
+           		<img src="{% url '../images/stackUp/bar.jpg' %}" width="57" height="57" align="left" class = "powerupimage">
+                <div class="powerupinfotext">
+                  <b>Flying Bar</b><br>
+                That's a thing! It creates a flying thingy which may be used for stacking things up. It will never fall. If there is no place for placing a shape you can create it!
+               </div>
+           </div>
+
+           <center><b>Note that you can use powerup even while dragging a shape. Just use keyboard shortcut (numbers 1, 2, 3, etc...) and see how magic happens.</b></center>
+          
+        </div>
+    </div>
+</div>

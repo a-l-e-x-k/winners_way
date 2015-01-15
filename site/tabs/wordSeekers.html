@@ -1,0 +1,81 @@
+<script>
+	$(function() {
+		$( "#wsaccordion" ).accordion({
+			autoHeight: false,
+			collapsible: true,
+			active: false
+		});
+	});
+</script>
+<style type="text/css">
+#stackUp {
+	text-align: left;
+}
+#description {
+	padding: 10px;
+	margin: 10px;
+	height:150px;
+	display:block;	
+}
+#descriptiontext {
+ 	padding: 5px;
+	margin: 5px;
+}
+#descriptionimage {
+	margin-right: 10px;
+	border: 2px #666666 solid;
+}
+.powerupinfotext {
+	padding: 5px;
+	margin: 5px;
+	display:block;
+}
+.powerupinfo {
+	padding: 5px;
+	margin: 5px;
+	height:90px;
+}
+.powerupimage {
+	margin-right: 5px;	
+}
+</style>
+
+
+<div id="stackUp">	
+    <div id="description">
+        <img src="{% url '../images/wordSeekers/main.jpg' %}" width="200" height="150" align="left" id="descriptionimage">
+        <div id="descriptiontext">             
+        "Word Seekers" is the game for upgrading your attentiveness. Within a field of many letters you have to find words (which are written below the field). Every game has a unique words for you to find. Words may be written horizontally (from left to right) or vertically (from top to bottom).<br><br> 
+        </div>
+    </div>
+    
+	<div id="wsaccordion">
+    	<h3><a href="#">Who wins?</a></h3>
+        <div>
+            <p>
+            	Who found most words!<br>
+                If both players found equal amount of words then everybody is a winner. However, since "Way" and "Spiral of Victories" contain only defeated guys no changes are made to both.<br>
+                Note that game may be finished before game time runs up if all words are found. 
+            </p>
+        </div>
+     	<h3><a href="#">What powerups may be used?</a></h3>
+        <div>       
+        <p>
+           <div class="powerupinfo">
+           		<img src="{% url '../images/wordSeekers/first.jpg' %}" width="57" height="57" align="left" class = "powerupimage">
+                <div class="powerupinfotext">
+                  <b>First Letter</b><br>
+                 Show you first letter of random word from the list. It saves time for finding a word.
+               </div>
+           </div>
+           
+           <div class="powerupinfo">
+           		<img src="{% url '../images/wordSeekers/remove.jpg' %}" width="57" height="57" align="left" class = "powerupimage">
+                <div class="powerupinfotext">
+                  <b>-20 Letters</b><br>
+                  Removes 20 random letters, which are not included in any word. Generally talking, it removes rubbish.
+               </div>
+           </div>
+        </div>
+    </div>
+</div>

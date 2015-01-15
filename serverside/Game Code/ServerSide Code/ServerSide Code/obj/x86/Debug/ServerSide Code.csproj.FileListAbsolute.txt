@@ -1,0 +1,23 @@
+I:\Documents and Settings\Alexey\Рабочий стол\BigBD stuff\Serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\Alexey\Рабочий стол\BigBD stuff\Serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.dll
+I:\Documents and Settings\Alexey\Рабочий стол\BigBD stuff\Serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.pdb
+I:\Documents and Settings\Alexey\Рабочий стол\BigBD stuff\Serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.dll
+I:\Documents and Settings\Alexey\Рабочий стол\BigBD stuff\Serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\PlayerIOClient.dll
+I:\Documents and Settings\Alexey\Рабочий стол\BigBD stuff\Serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.xml
+I:\Documents and Settings\Alexey\Рабочий стол\BigBD stuff\Serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\PlayerIOClient.xml
+I:\Documents and Settings\Alexey\Рабочий стол\BigBD stuff\Serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.dll
+I:\Documents and Settings\Alexey\Рабочий стол\BigBD stuff\Serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.pdb
+I:\Documents and Settings\Alexey\Рабочий стол\Ice World\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.dll
+I:\Documents and Settings\Alexey\Рабочий стол\Ice World\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.pdb
+I:\Documents and Settings\Alexey\Рабочий стол\Ice World\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.dll
+I:\Documents and Settings\Alexey\Рабочий стол\Ice World\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.xml
+I:\Documents and Settings\Alexey\Рабочий стол\Ice World\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\Alexey\Рабочий стол\Ice World\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.dll
+I:\Documents and Settings\Alexey\Рабочий стол\Ice World\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.pdb
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.dll
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\obj\x86\Debug\ServerSide Code.pdb
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.dll
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\ServerSide Code.pdb
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.dll
+I:\Documents and Settings\Alexey\Рабочий стол\VS Club\serverside\Game Code\ServerSide Code\ServerSide Code\bin\Debug\Player.IO GameLibrary.xml

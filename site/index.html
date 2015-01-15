@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+		{% require_session %}
+		<link rel="stylesheet" href="{% url 'css/style.css' %}" type="text/css"  />	
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>	
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src={% url 'js/fb.js' %}></script> 
+        <script type="text/javascript" src={% url 'js/design.js' %}></script> 		
+	</head>
+	<body>
+		<script type="text/javascript" language="javascript">		
+			(function(d){
+			   var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+			   js = d.createElement('script'); js.id = id; js.async = true;
+			   js.src = "//connect.facebook.net/en_US/all.js";
+			   d.getElementsByTagName('head')[0].appendChild(js);
+			 }(document));					 	
+			 
+			 window.fbAsyncInit = function()
+			 {				 
+				FB.init({
+				appId: '{{fb_application_id}}',
+				channelUrl : '{{ sitebox_app_root }}' + '/channel.html', // Channel File
+				status: true, // check login status
+				cookie: true, // enable cookies to allow the server to access the session
+				xfbml: true  // parse XFBML
+				});	
+				
+				FB.Canvas.setAutoGrow();				
+				
+				FB.getLoginStatus(function(response)
+				{
+					console.log("getLoginStatus");
+					console.log(response);
+					if (response.authResponse) {
+						runOnFacebookAvailable()
+					} else {
+						FB.Event.subscribe('auth.login', runOnFacebookAvailable);
+					}
+					
+					document.getElementById("invFriends").onclick = showFriendInviter;					
+					// FB.ui({method: 'apprequests',
+					//message: 'My Great Request',
+					//to: '1308033905'
+				 // }, null);						
+				});
+				
+				onFacebookAvailable[onFacebookAvailable.length] = makeRequestCheck;
+				onFacebookAvailable[onFacebookAvailable.length] = createSWF;
+				console.log("getting log stsat");				 		 		
+			 }
+		</script>
+        
+        <div id="pageContent">	
+            <div id="fb-root"></div>
+            <div class="fb-like" data-width="774" data-show-faces="false" href="https://www.facebook.com/arcade.battles"></div>
+            <div id="tabs">          			
+               <span id="play" class="tab">Play</span>
+               <span id="invFriends">Invite Friends</span>
+               <span id="coins" class="tab">Buy Coins</span>
+               <span id="help" class="tab">Help</span>                
+            </div>          
+            <div id="tabContent">                          
+            </div>
+            <div id="game" class="hidden">
+            	<div id="flashContent"></div>    
+					<script> 
+						var flashvars={
+							"post_signed_request":"{{ post_signed_request }}", 
+							"fb_is_logged_in":"{{ fb_is_logged_in }}", 
+							"fb_access_token":"{{ fb_access_token  }}", 
+							"fb_access_token_expires":"{{ fb_access_token_expires }}", 
+							"fb_user_id":"{{ fb_user_id }}", 
+							"fb_session_source":"{{ fb_session_source }}", 
+							"fb_is_iframe":"{{ fb_is_iframe }}", 
+							"fb_api_key":"{{ fb_api_key }}", 
+							"fb_application_id":"{{ fb_application_id }}", 
+							"fb_app_root":"{{ fb_app_root }}", 
+							"fb_current_url":"{{ fb_current_url }}", 
+							"sitebox_app_root":"{{ sitebox_app_root }}", 
+							"sitebox_page_path":"{{ sitebox_page_path }}", 
+							"sitebox_gameid":"{{ sitebox_gameid }}", 
+							"sitebox_issecure":"{{ sitebox_issecure }}"}
+						var params = {
+						  menu: "false",
+						  "wmode":"transparent"
+						};	
+						var args={
+							"allowscriptaccess":"always", 
+							"allowfullscreen":"true", 
+							"allownetworking":"all", 							
+							"name":'flashContent',
+							"style":"visibility:invisible"
+							};
+						
+						swfobject.embedSWF("{% url 'winners_way.swf' %}", "flashContent", "774", "630", "11.0", null, flashvars, params, args);
+                    </script>
+        	</div>
+        </div>
+        <script type="text/javascript">showTab("play");</script>
+	</body>
+</html>
